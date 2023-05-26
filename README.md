@@ -36,7 +36,7 @@ By exploring the provided Jupyter Notebooks, you will gain a deeper understandin
 ## Requirements
 To run the Jupyter Notebooks, make sure you have the following packages installed:
 
-PyTorch
-NumPy
-Matplotlib
-Scikit-learn
+PyTorch,
+NumPy,
+Matplotlib,
+Scikit-learn,
