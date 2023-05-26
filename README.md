@@ -19,13 +19,17 @@ requirements.txt: This file lists the Python packages required to run the Jupyte
 ## How to Use PyTorch Instead of Keras
 While Keras is a popular deep learning framework, PyTorch offers a flexible and dynamic approach to building and training neural networks. Here are some key steps to consider when transitioning from Keras to PyTorch:
 
-### Model Definition: In Keras, models are defined using a sequential or functional API. However, in PyTorch, you can define your model by creating a class that inherits from the torch.nn.Module class. This allows for more flexibility in model architecture and customization.
+### Model Definition: 
+In Keras, models are defined using a sequential or functional API. However, in PyTorch, you can define your model by creating a class that inherits from the torch.nn.Module class. This allows for more flexibility in model architecture and customization.
 
-### Tensor Operations: Both Keras and PyTorch provide tensor operations, but PyTorch's tensor operations closely resemble NumPy's syntax. You can easily perform mathematical operations on tensors in PyTorch, making it convenient for complex computations.
+### Tensor Operations: 
+Both Keras and PyTorch provide tensor operations, but PyTorch's tensor operations closely resemble NumPy's syntax. You can easily perform mathematical operations on tensors in PyTorch, making it convenient for complex computations.
 
-### Training Loop: In Keras, training loops are handled automatically when calling the fit function. In PyTorch, you have more control over the training loop. You can iterate over your dataset, perform forward and backward passes, update the model's parameters, and evaluate the model's performance.
+### Training Loop: 
+In Keras, training loops are handled automatically when calling the fit function. In PyTorch, you have more control over the training loop. You can iterate over your dataset, perform forward and backward passes, update the model's parameters, and evaluate the model's performance.
 
-### Device Management: PyTorch allows you to choose between running your computations on the CPU or GPU. You can explicitly move tensors and models to the GPU using the .to(device) method, where device can be either "cuda" or "cpu". This enables faster training and inference on GPUs if available.
+### Device Management: 
+PyTorch allows you to choose between running your computations on the CPU or GPU. You can explicitly move tensors and models to the GPU using the .to(device) method, where device can be either "cuda" or "cpu". This enables faster training and inference on GPUs if available.
 
 By exploring the provided Jupyter Notebooks, you will gain a deeper understanding of how PyTorch can be used for binary classification, multiclass classification, and regression tasks, and how it differs from using Keras.
 
